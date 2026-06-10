@@ -35,7 +35,7 @@ module.exports.login = async (req, res, next) => {
     // send success response with token
     return res
       .status(500)
-      .json({ msg: "Successfully Logged In", token: token });
+      .json({ msg: "Successfully Logged In updated Developer1", token: token });
   } catch (error) {
     next(error);
   }
